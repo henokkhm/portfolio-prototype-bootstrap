@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
+</html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,20 +7,95 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
   <title>Portfolio Prototype</title>
 </head>
 
 <body>
   <!-- Header -->
-  <header class="">
+  <header class="p-4 p-lg-0">
+    <nav class="navbar d-flex flex-row p-3">
+      <a href="#" class="navbar-brand fw-bold">My Logo</a>
+      <ul class="list-inline d-none d-md-flex flex-row">
+        <li>
+          <a class="text-capitalize nav-link link-dark" href="#porfolio">
+            porfolio
+          </a>
+        </li>
+        <li>
+          <a class="text-capitalize nav-link link-dark" href="#about">
+            about
+          </a>
+        </li>
+        <li>
+          <a class="text-capitalize nav-link link-dark" href="#contact">
+            contact
+          </a>
+        </li>
+      </ul>
+      <img class="d-md-none" src="assets/icons/hamburger.svg" alt="Hamburger menu icon" />
+    </nav>
   </header>
 
   <!-- Hero Section (Showcase) -->
-  <section class=""></section>
+  <section class="hero p-4 p-lg-5">
+    <div class="">
+      <h1 class="d-flex flex-column hero__header pt-5 pb-4">
+        <span>I’m Henok.</span>
+        <span>Glad to see you!</span>
+      </h1>
+      <p class="pb-2">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hesitate to contact
+        me.
+      </p>
+      <!-- Social Media Links -->
+      <div class="">
+        <h2 class="text-uppercase text-primary">Let&apos;s connect</h2>
+        <ul class="d-flex list-unstyled gap-3">
+          <!-- Twitter -->
+          <li>
+            <a href="https://twitter.com/henokkhm">
+              <img src="assets/icons/twitter.svg" alt="Twitter icon" />
+            </a>
+          </li>
+          <!-- LinkedIn -->
+          <li>
+            <a href="https://www.linkedin.com/in/henokkhm/">
+              <img src="assets/icons/linked-in.svg" alt="linkedIn icon" />
+            </a>
+          </li>
+          <!-- Medium -->
+          <li>
+            <a href="#">
+              <!-- TODO: Get link to Medium -->
+              <img src="assets/icons/medium.svg" alt="Medium icon" />
+            </a>
+          </li>
+          <!-- GitHub -->
+          <li>
+            <a href="https://github.com/henokkhm">
+              <img src="assets/icons/github.svg" alt="GitHub icon" />
+            </a>
+          </li>
+          <!-- Other -->
+          <li>
+            <a href="#">
+              <!-- TODO: What social media has this icon? -->
+              <img src="assets/icons/unknown.svg" alt="Social media icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <!-- Works Section -->
-  <section id="portfolio" class="container-xl w-100">
-    <div class="shadow-sm border flex-md-row flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
+  <section id="portfolio" class="container-xl w-100 mb-4">
+    <div class="shadow-sm bg-white border flex-md-row flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
       <div class="h-auto col sm:w-50 w-100">
         <img class="w-100 h-100" src="assets/project-screenshots/proj-1-desktop.png" alt="#">
       </div>
@@ -53,7 +126,8 @@
       </div>
     </div>
 
-    <div class="shadow-sm border flex-md-row-reverse flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
+    <div
+      class="shadow-sm border bg-white flex-md-row-reverse flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
       <div class="h-auto col sm:w-50 w-100">
         <img class="w-100 h-100" src="assets/project-screenshots/proj-1-desktop.png" alt="#">
       </div>
@@ -84,7 +158,7 @@
       </div>
     </div>
 
-    <div class="shadow-sm border flex-md-row flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
+    <div class="shadow-sm border bg-white flex-md-row flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
       <div class="h-auto col sm:w-50 w-100">
         <img class="w-100 h-100" src="assets/project-screenshots/proj-1-desktop.png" alt="#">
       </div>
@@ -115,7 +189,8 @@
       </div>
     </div>
 
-    <div class="shadow-sm border flex-md-row-reverse flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
+    <div
+      class="shadow-sm border flex-md-row-reverse bg-white flex-column f mt-4 rounded-2  w-75 gap-4  d-flex  p-3 m-auto">
       <div class="h-auto col sm:w-50 w-100">
         <img class="w-100 h-100" src="assets/project-screenshots/proj-1-desktop.png" alt="#">
       </div>

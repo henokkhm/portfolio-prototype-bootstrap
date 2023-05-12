@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: #fff;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 600px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url("assets/images/header-shapes-mobile.svg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 36.75rem;
+  border-bottom-left-radius: 4em;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 48rem) {
+  .hero {
+    background-image: url("assets/images/header-shapes-desktop.svg");
+    background-size: contain;
+  }
+}
+
+.hero__header {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}

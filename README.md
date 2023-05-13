@@ -28,7 +28,7 @@
 
 # Hello, Microverse <a name="about-project"></a>
 
-**Hello, Microverse** is the first project in Module-1 of the Full Stack Developer program at Microverse. It taught me good workflow habits such as Git best practices and linting.
+**Hello, Microverse** is a Bootstrap CSS implementation of the first project in Module-1 of the Full Stack Developer program at Microverse. The original project used vanilla CSS, and can be found [here](https://github.com/henokkhm/portfolio-site).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,6 +38,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap 5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
@@ -49,6 +50,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **Styled Header**
+- **Hero Section**
+- **Project Cards**
+- **Contact Me Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,8 +74,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- <a href="https://nodejs.org/en/download">Node.js</a>
-- <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a>
+- A web browser
 
 ### Setup
 
@@ -79,23 +82,16 @@ Clone this repository to your desired folder:
 
 ```sh
   cd desired-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/henokkhm/portfolio-prototype-bootstrap.git
 ```
 
 ### Install
 
-Install this project with:
-
-```sh
-  cd hello-microverse
-  npm install
-```
+There is no need to install any packages. This app uses a CDN to load Bootstrap.
 
 ### Usage
 
-To run the project, open the HTML file in your browser.
-
-To run the linters, use `npm run lint` from the root directory of the project.
+To run the project, open **index.html** in your browser. You can alternatively use the LiveServer extension of VSCode.
 
 ### Run tests
 
@@ -117,13 +113,19 @@ This project is not currently deployed.
 - Twitter: [@henokkhm](https://twitter.com/henokkhm)
 - LinkedIn: [henokkhm](https://www.linkedin.com/in/henokkhm/)
 
+👤 **DjibrilMugisho**
+
+- GitHub: [@DjibrilMugisho](https://github.com/DjibrilM?tab=overview&from=2023-04-01&to=2023-04-26)
+- Twitter: [@djibrilM](https://twitter.com/DjibrilMugisho)
+- LinkedIn: [DjibrilMugisho](https://www.linkedin.com/in/djibril-mugisho-509042241/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add more content and styling**
+- [ ] **Add the About Me section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
